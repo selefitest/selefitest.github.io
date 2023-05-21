@@ -179,3 +179,29 @@ body {
   font-family: 'Philosopher', sans-serif;
   border-radius: 10px;
 }
+
+
+@media (max-width: 900px) {
+    .section-one {
+        flex-direction: column;
+    }
+    .big-banner {
+        display: none;
+    }
+
+    .small-banner {
+        width: 80%;
+    }
+    .navigation-info-list {
+        display: none;
+    }
+    .search-bar-container {
+        display: none;
+    }
+    .navigation-container {
+        justify-content: center;
+    }
+    .logo-container img {
+        margin-left: 0;
+    }
+}
